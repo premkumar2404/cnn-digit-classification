@@ -66,17 +66,17 @@ python predict.py
 **📂 Project Structure**
 ---
 
--├── Sample Images/                 # Test images for prediction
+├── Sample Images/                 # Test images for prediction
 
--├── train.py                       # Training script
+├── train.py                       # Training script
 
--├── prediction.py                  # Prediction script
+├── prediction.py                  # Prediction script
 
--├── requirements.txt               # Dependencies
+├── requirements.txt               # Dependencies
 
--├── README.md                      # Project documentation
+├── README.md                      # Project documentation
 
--└── LICENSE                        # License file
+└── LICENSE                        # License file
 
 ---
 **🎯 Demo**
