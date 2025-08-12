@@ -88,7 +88,11 @@ python predict.py
 ---
 Model Accuracy
 
-![Accuracy_png](Accuracy.
+![Accuracy_png](Accuracy.png)
+
+Model Loss
+
+![Loss_png](loss.png)
 
 
 ---
