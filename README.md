@@ -75,3 +75,9 @@ python predict.py
 -├── README.md                      # Project documentation
 
 -└── LICENSE                        # License file
+---
+**👨‍💻 Author**
+
+**Prem Kumar
+
+GitHub: premkumar2404**
