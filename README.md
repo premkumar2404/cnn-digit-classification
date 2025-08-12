@@ -83,6 +83,13 @@ python predict.py
 ---
 ![Prediction Demo](prediction.gif)
 
+---
+**📊 Training Results**
+---
+Model Accuracy
+
+![Accuracy_png](Accuracy.
+
 
 ---
 **👨‍💻 Author**
