@@ -96,3 +96,7 @@ Model Loss
 
 
 ---
+**🎯 Sample Prediction**
+---
+Example Output:
+![output](
