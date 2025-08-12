@@ -96,9 +96,3 @@ Model Loss
 
 
 ---
-**👨‍💻 Author**
----
-
-**Prem Kumar**
-
-**GitHub: premkumar2404**
