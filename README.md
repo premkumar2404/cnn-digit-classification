@@ -99,4 +99,4 @@ Model Loss
 **🎯 Sample Prediction**
 ---
 Example Output:
-![output](
+![output](Sample_prediction.png)
