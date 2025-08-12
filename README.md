@@ -1,70 +1,72 @@
-# cnn-digit-classification
-Handwritten digit classification using Convolutional Neural Networks (CNN) with Python, TensorFlow/Keras, and OpenCV.
+🖋️ CNN Digit Classification
 
-# Handwritten Digit Classification using CNN
+📌 Overview
+This project implements a Convolutional Neural Network (CNN) to classify MNIST handwritten digits (0–9).
+It demonstrates:
 
-## 📌 Project Overview
-This project implements a **Convolutional Neural Network (CNN)** to classify MNIST handwritten digits (0–9).  
-It includes:
-- Data preprocessing
-- Model training and evaluation
-- Real-time image prediction using OpenCV
+Data preprocessing (normalization, reshaping, one-hot encoding)
+CNN architecture with convolution, pooling, and dense layers
+Model training & evaluation
+Prediction from user-provided images using OpenCV
 
----
+🛠️ Tech Stack
+Python 🐍
+TensorFlow / Keras – Deep Learning framework
+OpenCV – Image preprocessing
+NumPy – Numerical operations
+Matplotlib – Visualization
 
-## 🚀 Features
-- Achieves ~98% accuracy on MNIST test data
-- Custom CNN architecture with Conv2D, MaxPooling2D, Flatten, Dense layers
-- Accepts user-provided digit images for prediction
-- Visualizes predictions and model performance
+📂 Repository Structure
 
----
+├── model/                   # Pre-trained model (mnist_cnn.h5)
+├── Sample Images/           # Test images for prediction
+├── train.py                 # Script to train the CNN model
+├── prediction.py            # Script to predict digit from image
+├── requirements.txt         # Python dependencies
+├── README.md                # Project documentation
+├── LICENSE                  # License file
 
-## 🛠 Tech Stack
-- **Python 3**
-- **TensorFlow/Keras**
-- **NumPy**
-- **Matplotlib**
-- **OpenCV**
+🚀 How to Run
+1️⃣ Clone the Repository
 
----
-
-## 📊 Model Architecture
-1. **Conv2D** – 32 filters, 3×3 kernel, ReLU activation  
-2. **MaxPooling2D** – 2×2 pool size  
-3. **Flatten** – converts 3D feature maps to 1D  
-4. **Dense** – 64 neurons, ReLU activation  
-5. **Dense** – 10 neurons, Softmax activation  
-
----
-
-## 📂 Dataset
-The project uses the **MNIST dataset** from Keras:
-```python
-from keras.datasets import mnist
-(x_train, y_train), (x_test, y_test) = mnist.load_data()
-
-## How to Run
-
-### 1. Clone the repository
 git clone https://github.com/yourusername/cnn-digit-classification.git
 cd cnn-digit-classification
 
-### 2. Install dependencies
+2️⃣ Install Dependencies
 pip install -r requirements.txt
 
-### 3. Train the model (optional)
+3️⃣ Train the Model (Optional)
 python train.py
+💡 This will save mnist_cnn.h5 inside the model/ folder.
 
-### 4. Predict a digit from an image
-python predict.py
+4️⃣ Predict from an Image
+python prediction.py
+Enter the path of a 28x28 grayscale image.
 
-## Example Prediction
+The model will predict the digit and display it.
 
-Below is an example of the CNN model predicting a handwritten digit:
+📸 Example Prediction
+Below is an example of the CNN predicting a handwritten digit:
 
-![Sample Prediction](sample_prediction.png)
 
+📊 Model Architecture
 
-### Pre-trained Model
-Download the trained model here: [mnist_cnn.h5](model/mnist_cnn.h5)
+Input Layer: 28x28x1 (grayscale image)
+Conv2D: 32 filters, kernel size (3x3), activation='relu'
+MaxPooling2D: pool size (2x2)
+Flatten
+Dense: 64 neurons, activation='relu'
+Dense: 10 neurons, activation='sigmoid'
+
+📥 Pre-trained Model
+Download the trained model: mnist_cnn.h5
+(Place in model/ folder before running prediction.py)
+
+👨‍💻 Author
+Prem Kumar
+📧 Email: prem598826@gmail.com
+🌐 GitHub: premkumar2404
+
+📄 License
+This project is licensed under the MIT License – see the LICENSE file for details.
+
