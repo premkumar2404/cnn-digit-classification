@@ -59,3 +59,12 @@ python train.py
 ### 4. Predict a digit from an image
 python predict.py
 
+## Example Prediction
+
+Below is an example of the CNN model predicting a handwritten digit:
+
+![Sample Prediction](sample_prediction.png)
+
+
+### Pre-trained Model
+Download the trained model here: [mnist_cnn.h5](model/mnist_cnn.h5)
