@@ -63,14 +63,15 @@ python predict.py
 ```
 ---
 **📂 Project Structure**
--├── Sample Images/           # Test images for prediction
 
--├── train.py                 # Training script
+-├── Sample Images/                 # Test images for prediction
 
--├── prediction.py            # Prediction script
+-├── train.py                       # Training script
 
--├── requirements.txt         # Dependencies
+-├── prediction.py                  # Prediction script
 
--├── README.md                 # Project documentation
+-├── requirements.txt               # Dependencies
 
--└── LICENSE                  # License file
+-├── README.md                      # Project documentation
+
+-└── LICENSE                        # License file
