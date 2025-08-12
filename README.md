@@ -44,3 +44,18 @@ The project uses the **MNIST dataset** from Keras:
 from keras.datasets import mnist
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
 
+## How to Run
+
+### 1. Clone the repository
+git clone https://github.com/yourusername/cnn-digit-classification.git
+cd cnn-digit-classification
+
+### 2. Install dependencies
+pip install -r requirements.txt
+
+### 3. Train the model (optional)
+python train.py
+
+### 4. Predict a digit from an image
+python predict.py
+
