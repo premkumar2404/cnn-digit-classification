@@ -79,6 +79,12 @@ python predict.py
 -└── LICENSE                        # License file
 
 ---
+** 🎯 Demo**
+---
+![Prediction Demo](prediction.gif)
+
+
+---
 **👨‍💻 Author**
 ---
 
