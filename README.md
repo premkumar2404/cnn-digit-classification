@@ -42,7 +42,8 @@ from keras.datasets import mnist
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
 ```
 ---
-**##📜 How to Run**
+##📜 How to Run
+
 1.Clone the repository:
 ```python
 git clone https://github.com/yourusername/mnist-cnn.git
