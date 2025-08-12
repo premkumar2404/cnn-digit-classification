@@ -78,6 +78,6 @@ python predict.py
 ---
 **👨‍💻 Author**
 
-**Prem Kumar
+**Prem Kumar**
 
-GitHub: premkumar2404**
+**GitHub: premkumar2404**
