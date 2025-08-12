@@ -42,7 +42,7 @@ from keras.datasets import mnist
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
 ```
 ---
-##📜 How to Run
+**📜 How to Run**
 
 1.Clone the repository:
 ```python
@@ -64,8 +64,13 @@ python predict.py
 ---
 **📂 Project Structure**
 -├── Sample Images/           # Test images for prediction
+
 -├── train.py                 # Training script
+
 -├── prediction.py            # Prediction script
+
 -├── requirements.txt         # Dependencies
+
 -├── README.md                 # Project documentation
+
 -└── LICENSE                  # License file
