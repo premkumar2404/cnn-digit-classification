@@ -43,6 +43,7 @@ from keras.datasets import mnist
 ```
 ---
 **📜 How to Run**
+---
 
 1.Clone the repository:
 ```python
@@ -79,6 +80,7 @@ python predict.py
 
 ---
 **👨‍💻 Author**
+---
 
 **Prem Kumar**
 
