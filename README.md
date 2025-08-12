@@ -63,6 +63,7 @@ python predict.py
 ```
 ---
 **📂 Project Structure**
+---
 
 -├── Sample Images/                 # Test images for prediction
 
@@ -75,6 +76,7 @@ python predict.py
 -├── README.md                      # Project documentation
 
 -└── LICENSE                        # License file
+
 ---
 **👨‍💻 Author**
 
